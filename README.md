@@ -1,5 +1,4 @@
 # Reddit Joke Bot
-==============
 
 Queries /r/jokes.json?top&limit=10&t=hour (human readable: get the top 10 of the hour) and posts the jokes that are <140 char to twitter using Python 2,7 (sorry, wrote this on a machine where I couldn't install 3,5, maybe one day I'll change it!)
 
