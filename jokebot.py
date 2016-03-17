@@ -21,7 +21,7 @@ class GetRedditJokes():
 
 	def get_jokes(self):
 		# get our jokes from /r/jokes (top, limit 10 and only past hour)
-		jokes = requests.get("http://www.reddit.com/r/jokes.json?top&limit=10&t=hour", headers=self.hdr).json()
+		jokes = requests.get("https://www.reddit.com/r/jokes/top.json", headers=self.hdr).json()
 
 		# init a dict for us to store our jokes in
 		joke_kv = dict()
